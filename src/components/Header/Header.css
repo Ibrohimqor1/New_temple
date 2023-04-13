@@ -15,12 +15,25 @@
 .header_rasm2{
     width: 40%;
 }
-
-
-
-.slick-next:before, [dir=rtl] .slick-prev:before {
-    content: '';
+.header_rasm2 img{
+    width: 70%;
 }
+.header_rasm2 img:hover{
+  transform: scale(1.1000);
+  
+  transition: 1s;
+}
+
+.img_overflow{
+    overflow: hidden;
+    width: 500px;
+    margin-left: 50px;
+}
+
+
+/* .slick-next:before, [dir=rtl] .slick-prev:before {
+    content: '';
+} */
 
 @media only screen and (max-width: 800px) {
     .slider{

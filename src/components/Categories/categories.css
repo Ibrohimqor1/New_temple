@@ -1,0 +1,7 @@
+.slick-next:before, .slick-prev:before {
+    font-size: 25px;
+    line-height: 1;
+    opacity: .75;
+   margin-right: 30px;
+    color: #222020;
+}

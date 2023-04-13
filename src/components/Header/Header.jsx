@@ -18,7 +18,7 @@ export default class SlideChangeHooks extends Component {
       afterChange: current => this.setState({ activeSlide2: current })
     };
     return (
-      <div className=" md:flex center container m-auto">
+      <div className="  md:flex center justify-evenly container m-auto">
        <div className="slider pt-8  ">
 
       
@@ -38,9 +38,14 @@ export default class SlideChangeHooks extends Component {
         </Slider>
         </div>
 
-        <div className="header_rasm2 ">
+        <div className="header_rasm2 justify-end">
+          <div className=" img_overflow   ">
           <img className="rounded-md p-3 w-68 md:w-72" src="https://www.supermart.ae/img/cms/Fruits-and-Vegetable-Category.png" alt="" />
-          <img className="rounded-md p-3 w-62 md:w-72" src="https://www.supermart.ae/img/cms/Meat-and-Chicken-Category.png" alt="" />
+            </div>
+         <div  className=" img_overflow">
+         <img className="rounded-md p-3 w-62 md:w-72" src="https://www.supermart.ae/img/cms/Meat-and-Chicken-Category.png" alt="" />
+         </div>
+         
         </div>
       </div>
     );

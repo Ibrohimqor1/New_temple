@@ -1,11 +1,14 @@
 import React from 'react'
-import Navbar from '../components/Navbar/Navbar'
+import Category from '../components/Categories/categories'
 import Header from '../components/Header/Header'
+import Navbar from '../components/Navbar/Navbar.jsx'
 const Home = () => {
   return (
     <div>
-         {/* <Navbar/> */}
+         <Navbar/>
          <Header/>
+         <Category/>
+         
     </div>
   )
 }

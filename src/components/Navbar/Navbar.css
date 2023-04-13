@@ -5,13 +5,10 @@
 padding-left: 5px;
 overflow: hidden;
 
-
-
-    
 }
 
 .icon_navbar{
-    width: 35px;
+    width: 40px;
 
 
 }
@@ -21,8 +18,20 @@ overflow: hidden;
     margin-top: 4px;
     padding-left: 5px;
 
-height: 25px;
+height: 20px;
  padding-right: 20px;
- z-index: 0;
     
+}
+
+
+.slick-dots li.slick-active button:before {
+    font-size: 20px;
+   
+    border-radius: 50%; 
+  
+     
+}
+
+li::before{
+   
 }
